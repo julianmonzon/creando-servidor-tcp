@@ -1,6 +1,6 @@
 # Servidor TCP
 
-Task where we build a simple TCP server using Python.
+Task where we build a simple TCP server using Node.js.
 
 ## Getting Started
 
@@ -8,11 +8,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Install Python (preferably version 3.9 or higher)
+Install Node.js (preferably version 14.x or higher)
 
 ### Installing
 
-A step-by-step series of examples that tell you how to get a development environment running.
+<!-- Leave this section empty -->
+
+## Running the server
 
 1. Clone the repository:
 
@@ -22,20 +24,9 @@ git clone https://github.com/julianmonzon/creando-servidor-tcp.git
 
 cd creando-servidor-tcp
 
-3. Create a virtual environment (optional but recommended):
+3. Run the TCP server:
 
-python -m venv .venv
-
-4. Activate the virtual environment:
-
-- On Windows:
-  .venv\Scripts\activate
-- On macOS/Linux:
-  source .venv/bin/activate
-
-5. Run the TCP server:
-
-python servidor_tcp.py
+node servidor_tcp.js
 
 The server will listen for incoming connections on the specified port. You can connect to it using a TCP client.
 
@@ -49,7 +40,7 @@ Deployment instructions are not yet available for this project.
 
 ## Built With
 
-- Python - The programming language used
+- Node.js - The programming language used
 
 ## Contributing
 
